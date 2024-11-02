@@ -1,4 +1,4 @@
-public partial class Alerter
+public partial class Alerter{
     public enum AlertTarget { 
         TO_CONTROLLER, 
         TO_EMAIL }
