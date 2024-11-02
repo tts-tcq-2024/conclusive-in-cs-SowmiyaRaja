@@ -7,9 +7,9 @@ public partial class Alerter{
     {
         BreachType breachType = classifyTemperatureBreach(coolingType, temperatureInC);
         if (alertTarget == AlertTarget.TO_CONTROLLER)
-            sendToController(breachType);
+            sendAlertToController(breachType);
         else
-            sendToEmail(breachType);
+            sendAlertToEmail(breachType);
     }
 
     private static void sendAlertToController(BreachType breachType)
