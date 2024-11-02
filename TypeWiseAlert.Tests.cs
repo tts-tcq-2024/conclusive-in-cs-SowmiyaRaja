@@ -28,7 +28,7 @@ public class TypeWiseAlertTests
             return BreachType.NORMAL;
         }
 
-        public static void checkAndAlert(string recipient, BatteryCharacter batteryChar, double temperature)
+        public static void checkAndAlert(string recipient, BatteryParam batteryParam, double temperature)
         {
         }
     }
