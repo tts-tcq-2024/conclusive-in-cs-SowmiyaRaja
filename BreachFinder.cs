@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-public class BreachFinder
+public partial class Alerter
 {
     public enum BreachType 
     { 
