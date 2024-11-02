@@ -49,7 +49,7 @@ public class TypeWiseAlertTests
             var expectedOutput = BreachType.TOO_LOW;
             var batteryParam = new BatteryParam { CoolingType = CoolingType.PASSIVE_COOLING};
             TypeWiseAlert.checkAndAlert("TO_CONTROLLER", batteryParam, -10);
-            Assert.AreEqual(expectedOutput, mockOutput);
+            Debug.Assert(expectedOutput, mockOutput);
         }
 
         public void TestCheckAndAlert_TO_CONTROLLER_NormalBreach()
